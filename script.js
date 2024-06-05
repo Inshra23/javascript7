@@ -174,3 +174,10 @@ document.write("<br> <br>updated array is;" + color)
 //         alert("It's normal month")
 //     }
 // }
+
+
+//array sort
+let scores = [320, 230, 480, 120]
+document.write("<h3>Scores of Student: " + scores)
+scores.sort();
+document.write("Ordered Scores of Students" + scores)
